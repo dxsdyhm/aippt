@@ -175,6 +175,8 @@ Part 1 · `-p` 进阶 · 案例 1 / 3
 </v-click>
 
 ---
+zoom: 0.8
+---
 
 # 实战：`-p` 进阶用法
 
@@ -287,7 +289,8 @@ Part 1 · `-p` 进阶 · 案例 2 / 3 · 实际效果
 </div>
 
 ---
-
+zoom: 0.7
+---
 # 实战：`-p` 进阶用法
 
 <div class="abs-tr m-6 text-xs opacity-50">
@@ -378,6 +381,7 @@ Part 2 of 4
 
 ---
 layout: two-cols
+zoom: 0.8
 ---
 
 <div class="pr-4">
