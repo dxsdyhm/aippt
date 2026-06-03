@@ -622,6 +622,8 @@ layout: two-cols
 
 </div>
 
+</div>
+
 <div v-click class="mt-8 text-center">
 
 <div class="inline-block px-8 py-4 rounded-xl" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(59, 130, 246, 0.15)); border: 1px solid rgba(34, 197, 94, 0.5);">
