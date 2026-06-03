@@ -541,7 +541,12 @@ layout: two-cols
 
 </div>
 
-<table style="font-size: 0.78em;">
+<table style="font-size: 0.78em; table-layout: fixed; width: 92%; margin: 0 auto;">
+<colgroup>
+<col style="width: 26%;" />
+<col style="width: 37%;" />
+<col style="width: 37%;" />
+</colgroup>
 <thead>
 <tr>
 <th align="left">维度</th>
@@ -551,32 +556,32 @@ layout: two-cols
 </thead>
 <tbody>
 <tr>
-<td><strong>核心定位</strong></td>
+<td align="left"><strong>核心定位</strong></td>
 <td align="center">深度理解</td>
 <td align="center">效率优先</td>
 </tr>
 <tr>
-<td><strong>存储引擎</strong></td>
+<td align="left"><strong>存储引擎</strong></td>
 <td align="center"><code>LadybugDB</code></td>
 <td align="center"><code>SQLite + FTS5</code></td>
 </tr>
 <tr>
-<td><strong>增量更新</strong></td>
+<td align="left"><strong>增量更新</strong></td>
 <td align="center"><span style="color:#ef4444">手动 re-analyze</span></td>
 <td align="center"><span style="color:#10b981">实时监听</span></td>
 </tr>
 <tr>
-<td><strong>可视化</strong></td>
+<td align="left"><strong>可视化</strong></td>
 <td align="center">✅ Web UI</td>
 <td align="center">—</td>
 </tr>
 <tr>
-<td><strong>安装体验</strong></td>
+<td align="left"><strong>安装体验</strong></td>
 <td align="center">CLI + 浏览器</td>
 <td align="center"><span style="color:#10b981">一键 init</span></td>
 </tr>
 <tr>
-<td><strong>Token / 成本</strong></td>
+<td align="left"><strong>Token / 成本</strong></td>
 <td align="center">—</td>
 <td align="center"><strong style="color:#10b981">-57% / -35%</strong></td>
 </tr>
