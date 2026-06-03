@@ -622,6 +622,20 @@ layout: two-cols
 
 </div>
 
+<div v-click class="mt-8 text-center">
+
+<div class="inline-block px-8 py-4 rounded-xl" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(59, 130, 246, 0.15)); border: 1px solid rgba(34, 197, 94, 0.5);">
+
+<div class="text-xs opacity-60 mb-1">🎮 在线体验 Demo</div>
+
+<div class="text-lg font-semibold" style="color: #4ade80;">
+
+http://172.17.141.10:8004/
+
+</div>
+
+</div>
+
 </div>
 
 ---
