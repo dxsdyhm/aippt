@@ -598,15 +598,15 @@ layout: two-cols
 
 # 🎯 选型建议
 
-<div class="text-center text-sm opacity-60 mb-8 italic">
+<div class="text-center text-sm opacity-60 mb-3 italic">
 
 *没有银弹 · 只有取舍*
 
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="grid grid-cols-2 gap-4">
 
-<div class="p-6 rounded-xl" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.12), rgba(236, 72, 153, 0.12)); border: 1px solid rgba(168, 85, 247, 0.4);">
+<div class="p-4 rounded-xl" style="background: linear-gradient(135deg, rgba(168, 85, 247, 0.12), rgba(236, 72, 153, 0.12)); border: 1px solid rgba(168, 85, 247, 0.4);">
 
 ### 🌌 选 GitNexus
 
@@ -617,7 +617,7 @@ layout: two-cols
 
 </div>
 
-<div class="p-6 rounded-xl" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(16, 185, 129, 0.12)); border: 1px solid rgba(59, 130, 246, 0.4);">
+<div class="p-4 rounded-xl" style="background: linear-gradient(135deg, rgba(59, 130, 246, 0.12), rgba(16, 185, 129, 0.12)); border: 1px solid rgba(59, 130, 246, 0.4);">
 
 ### 🛰️ 选 CodeGraph
 
@@ -630,13 +630,13 @@ layout: two-cols
 
 </div>
 
-<div v-click class="mt-8 text-center">
+<div v-click class="mt-3 text-center">
 
-<div class="inline-block px-8 py-4 rounded-xl" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(59, 130, 246, 0.15)); border: 1px solid rgba(34, 197, 94, 0.5);">
+<div class="inline-block px-6 py-2 rounded-xl" style="background: linear-gradient(135deg, rgba(34, 197, 94, 0.15), rgba(59, 130, 246, 0.15)); border: 1px solid rgba(34, 197, 94, 0.5);">
 
-<div class="text-xs opacity-60 mb-1">🎮 在线体验 Demo</div>
+<div class="text-xs opacity-60 mb-0.5">🎮 在线体验 Demo</div>
 
-<div class="text-lg font-semibold" style="color: #4ade80;">
+<div class="text-base font-semibold" style="color: #4ade80;">
 
 http://172.17.141.10:8004/
 
