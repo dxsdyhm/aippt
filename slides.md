@@ -4,6 +4,7 @@ title: AI 工程化与安全探索
 info: |
   ## AI 工程化与安全探索
   本次分享涵盖 Claude 原生能力、代码 MCP、AI 工程化与安全四大主题。
+css: style.css
 drawings:
   enabled: false
 transition: slide-left
@@ -944,23 +945,22 @@ Part 3 · 内部 API 中转站
 
 # 三者的协同关系
 
-```mermaid {scale: 0.9}
+```mermaid {scale: 0.85}
 flowchart LR
-    DEV[开发者] -->|调用| GW[中转站]
-    GW -->|提供模型| AGT[AI Agent]
-    AGT -->|使用技能| SH[SkillHub]
-    AGT -->|调用工具| MS[MCP 广场]
-    MS -->|访问| SRC[业务系统/代码/数据]
-    SH -.沉淀.-> AGT
-    MS -.沉淀.-> SH
-    GW -.度量.-> OPS[运营看板]
+    DEV[👨‍💻 开发者] <-->|对话/指令| AGT[🤖 AI Agent<br/>Claude Code / Cursor]
+    AGT -->|① LLM 调用| GW[🌐 API 中转站]
+    GW <-->|② 路由/鉴权/限流| LLM[(上游 LLM<br/>Claude · GPT · ...)]
+    AGT -->|③ 加载技能| SH[📚 SkillHub]
+    AGT -->|④ MCP 协议| MS[🛠️ MCP 广场]
+    MS <-->|⑤ 业务访问| SRC[(代码/数据/服务)]
+    GW -.->|⑥ 用量/成本/审计| OPS[📊 运营看板]
 ```
 
 <v-click>
 
-<div class="mt-6 p-4 rounded bg-purple-500 bg-opacity-10 border-l-4 border-purple-500">
+<div class="mt-4 p-4 rounded bg-purple-500 bg-opacity-10 border-l-4 border-purple-500 text-sm">
 
-🌟 **核心闭环**：中转站提供"算力"，SkillHub 提供"知识"，MCP 广场提供"手脚"，三者形成 **"算力 + 知识 + 行动"** 完整闭环。
+🌟 **技术协同**：中转站 = **算力出口**（统一路由/鉴权/限流/计费）；SkillHub = **知识注入**（Prompt / 技能 / 最佳实践）；MCP 广场 = **动作执行**（业务系统打通）。Agent 在用户侧把它们串成完整调用链，**三方可独立演进、互不耦合**。
 
 </div>
 
