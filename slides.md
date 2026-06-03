@@ -891,6 +891,12 @@ Part 3 · 内部 API 中转站
 
 </v-click>
 
+<div class="mt-4 text-center text-sm opacity-70">
+
+🔗 在线访问：<a href="http://172.17.141.10:8009/" target="_blank" class="underline">http://172.17.141.10:8009/</a>
+
+</div>
+
 ---
 
 # 🏪 MCP 广场
