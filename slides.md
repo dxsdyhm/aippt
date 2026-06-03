@@ -1061,6 +1061,12 @@ layout: default
 
 </div>
 
+<div class="mt-2 text-sm text-left">
+
+🔗 MCP 端点：<a href="http://172.17.141.10:4747/api/mcp" target="_blank" class="underline">http://172.17.141.10:4747/api/mcp</a>
+
+</div>
+
 ---
 layout: default
 ---
